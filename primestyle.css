@@ -1,0 +1,144 @@
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar with Hover Effect */
+  .navbar {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://miro.medium.com/v2/resize:fit:916/1*Cqre1DiBoW2rH5Mxt6fxUw.jpeg'); /* Your provided navbar image */
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0; /* Adjust padding as needed */
+    transition: background 0.3s ease; /* Smooth transition for background */
+  }
+  
+  .navbar:hover {
+    background: white !important; /* White background on hover */
+  }
+  
+  .navbar-brand {
+    font-size: 2rem; /* Larger font size for the brand */
+    font-weight: bold; /* Bold text */
+    color: white !important; /* Ensure text is white */
+    text-transform: uppercase; /* UPPERCASE text for a bold look */
+    letter-spacing: 2px; /* Add spacing between letters */
+    transition: color 0.3s ease; /* Smooth transition for text color */
+  }
+  
+  .navbar:hover .navbar-brand {
+    color: black !important; /* Black text on hover */
+  }
+  
+  .nav-link {
+    font-size: 1rem; /* Font size for nav links */
+    color: white !important; /* White text */
+    margin: 0 10px; /* Spacing between nav links */
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .navbar:hover .nav-link {
+    color: black !important; /* Black text on hover */
+  }
+  
+  .navbar-nav .nav-link i {
+    font-size: 1.2rem; /* Icon size */
+    transition: color 0.3s ease; /* Smooth transition for icon color */
+  }
+  
+  .navbar:hover .nav-link i {
+    color: black !important; /* Black icons on hover */
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://drinkprime.uk/cdn/shop/files/BF_Drop_Banner_Desktop_UK_2000x.jpg?v=1730304161'); /* Your provided hero image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: flex-start; /* Align content to the top */
+    justify-content: flex-start; /* Align content to the left */
+    color: white;
+    padding: 20px 40px; /* Add padding to the top and left */
+  }
+  
+  .hero-section .container {
+    text-align: left; /* Align text to the left */
+    max-width: 600px; /* Limit the width of the text container */
+  }
+  
+  .hero-section h1 {
+    font-size: 4rem; /* Slightly smaller font size */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 20px; /* Space below the heading */
+    text-transform: uppercase; /* UPPERCASE text for a bold look */
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem; /* Slightly smaller paragraph text */
+    margin-bottom: 30px; /* Space below the paragraph */
+  }
+  
+  .hero-section .btn {
+    font-size: 1.2rem; /* Larger button text */
+    font-weight: bold; /* Bold text */
+    color: black; /* Black text */
+    background-color: white; /* White background */
+    padding: 15px 40px; /* Bigger button padding */
+    border: none; /* Remove default border */
+    border-radius: 50px; /* Rounded corners */
+    text-transform: uppercase; /* UPPERCASE text */
+    transition: all 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .hero-section .btn:hover {
+    background-color: #ffc107; /* Yellow background on hover */
+    color: black; /* Black text on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  /* Products Section */
+  .products-section {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://miro.medium.com/v2/resize:fit:916/1*Cqre1DiBoW2rH5Mxt6fxUw.jpeg'); /* Your provided products section image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0 60px 0; /* Increased top padding to move the heading higher */
+  }
+  
+  .products-section h2 {
+    font-size: 3.5rem; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* UPPERCASE text for a bold look */
+    margin-bottom: 40px; /* Space below the heading */
+    text-align: center; /* Center the heading */
+  }
+  
+  .card {
+    transition: transform 0.3s;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background for cards */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Footer with Background Image */
+  footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://img2.tradewheel.com/uploads/images/products/3/1/0702699001679466433-prime-hydration-drin.jpeg.webp'); /* Replace with your footer image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 0; /* Increased padding for better spacing */
+    text-align: center; /* Center-align text */
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
