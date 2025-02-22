@@ -1,137 +1,149 @@
-/* Custom Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
   
-  /* Navbar with Hover Effect */
+  
   .navbar {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://miro.medium.com/v2/resize:fit:916/1*Cqre1DiBoW2rH5Mxt6fxUw.jpeg'); /* Your provided navbar image */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://www.dexerto.com/cdn-image/wp-content/uploads/2024/11/11/PrimeXHydration.jpg'); /* Your provided navbar image */
     background-size: cover;
     background-position: center;
-    padding: 20px 0; /* Adjust padding as needed */
-    transition: background 0.3s ease; /* Smooth transition for background */
+    padding: 0px 0; 
+    transition: background 0.3s ease; 
+    
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white; 
   }
   
   .navbar:hover {
-    background: white !important; /* White background on hover */
+    background: white !important; 
   }
   
   .navbar-brand {
-    font-size: 2rem; /* Larger font size for the brand */
-    font-weight: bold; /* Bold text */
-    color: white !important; /* Ensure text is white */
-    text-transform: uppercase; /* UPPERCASE text for a bold look */
-    letter-spacing: 2px; /* Add spacing between letters */
-    transition: color 0.3s ease; /* Smooth transition for text color */
+    font-size: 4rem; 
+    font-weight: bold; 
+    color: white !important; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    transition: color 0.3s ease;
+    margin-left: 50px;
   }
   
   .navbar:hover .navbar-brand {
-    color: black !important; /* Black text on hover */
+    color: black !important; 
   }
   
   .nav-link {
-    font-size: 1rem; /* Font size for nav links */
-    color: white !important; /* White text */
-    margin: 0 10px; /* Spacing between nav links */
-    transition: color 0.3s ease; /* Smooth hover effect */
+    font-size: 1rem; 
+    color: white !important; 
+    margin: 0 10px; 
+    transition: color 0.3s ease; 
   }
   
   .navbar:hover .nav-link {
-    color: black !important; /* Black text on hover */
+    color: black !important; 
   }
   
   .navbar-nav .nav-link i {
-    font-size: 1.2rem; /* Icon size */
-    transition: color 0.3s ease; /* Smooth transition for icon color */
+    font-size: 1.2rem; 
+    transition: color 0.3s ease; 
   }
   
   .navbar:hover .nav-link i {
-    color: black !important; /* Black icons on hover */
+    color: black !important;
   }
   
-  /* Hero Section */
+  
   .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://drinkprime.uk/cdn/shop/files/BF_Drop_Banner_Desktop_UK_2000x.jpg?v=1730304161'); /* Your provided hero image */
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     display: flex;
-    align-items: flex-start; /* Align content to the top */
-    justify-content: flex-start; /* Align content to the left */
+    align-items: flex-start; 
+    justify-content: flex-start; 
     color: white;
-    padding: 20px 40px; /* Add padding to the top and left */
+    padding: 20px 40px;
   }
   
   .hero-section .container {
-    text-align: left; /* Align text to the left */
-    max-width: 600px; /* Limit the width of the text container */
+    text-align: left;
+    max-width: 600px; 
+    margin-top: 200px;
+    margin-left: 30px;
   }
   
   .hero-section h1 {
-    font-size: 4rem; /* Slightly smaller font size */
-    font-weight: bold; /* Bold text */
-    margin-bottom: 20px; /* Space below the heading */
-    text-transform: uppercase; /* UPPERCASE text for a bold look */
+    font-size: 4rem; 
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
   }
   
   .hero-section p {
-    font-size: 1.2rem; /* Slightly smaller paragraph text */
-    margin-bottom: 30px; /* Space below the paragraph */
+    font-size: 1.2rem; 
+    margin-bottom: 30px; 
   }
   
   .hero-section .btn {
-    font-size: 1.2rem; /* Larger button text */
-    font-weight: bold; /* Bold text */
-    color: black; /* Black text */
-    background-color: white; /* White background */
-    padding: 15px 40px; /* Bigger button padding */
-    border: none; /* Remove default border */
-    border-radius: 50px; /* Rounded corners */
-    text-transform: uppercase; /* UPPERCASE text */
-    transition: all 0.3s ease; /* Smooth hover effect */
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    color:  white ; 
+    background-color:black ; 
+    padding: 15px 40px; 
+    border: none; 
+    /* border-radius: 50px;  */
+    text-transform: uppercase;
+    transition: all 0.3s ease; 
   }
   
   .hero-section .btn:hover {
-    background-color: #ffc107; /* Yellow background on hover */
-    color: black; /* Black text on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    background-color: white ;
+    color:  #080602;
+    transform: scale(1.05); 
   }
   
-  /* Products Section */
+  .products-section h1 {
+    font-size: 10rem; 
+    font-weight: bold;
+    letter-spacing: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  
+  }
+
+
   .products-section {
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://miro.medium.com/v2/resize:fit:916/1*Cqre1DiBoW2rH5Mxt6fxUw.jpeg'); /* Your provided products section image */
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://www.dexerto.com/cdn-image/wp-content/uploads/2024/11/11/PrimeXHydration.jpg'); /* Your provided products section image */
     background-size: cover;
     background-position: center;
-    padding: 100px 0 60px 0; /* Increased top padding to move the heading higher */
+    padding: 50px 0 20px 0; 
   }
-  
-  .products-section h2 {
-    font-size: 3.5rem; /* Larger font size */
-    font-weight: bold; /* Bold text */
-    text-transform: uppercase; /* UPPERCASE text for a bold look */
-    margin-bottom: 40px; /* Space below the heading */
-    text-align: center; /* Center the heading */
-  }
+
   
   .card {
     transition: transform 0.3s;
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background for cards */
+    background-color: rgba(255, 255, 255, 0.9); 
   }
   
   .card:hover {
     transform: translateY(-10px);
   }
   
-  /* Footer with Background Image */
+  
   footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://img2.tradewheel.com/uploads/images/products/3/1/0702699001679466433-prime-hydration-drin.jpeg.webp'); /* Replace with your footer image URL */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://www.dexerto.com/cdn-image/wp-content/uploads/2024/11/11/PrimeXHydration.jpg'); /* Replace with your footer image URL */
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 60px 0; /* Increased padding for better spacing */
-    text-align: center; /* Center-align text */
+    padding: 60px 0; 
+    text-align: center; 
   }
   
   footer a {
@@ -142,3 +154,83 @@ body {
   footer a:hover {
     text-decoration: underline;
   }
+
+
+  .btn-custom {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: block;
+    margin: 20px auto; 
+    text-align: center;
+    
+    
+    
+}
+
+
+.btn-custom:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.btndiv{
+  margin-top: 500px;
+}
+.container1 h1{
+  font-size: 10rem; 
+  font-weight: bold;
+  letter-spacing: 50px;
+  text-align: center;
+  margin-top: 3rem;
+
+}
+
+.btn-custom1{
+  background-color:white ;
+  color:  black;
+  border: none;
+  padding: 5px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: block;
+  margin: 20px auto; 
+  text-align: center;
+  border: 1px solid black;
+  
+  
+  
+}
+.btn-custom1:hover {
+  background-color:black ;
+  color:  white;
+  border: 1px solid black;
+}
+
+.button1{
+  background-color:white ;
+  color:  black;
+  border: none;
+  padding: 5px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: block;
+  margin: 20px auto; 
+  text-align: center;
+  border: 1px solid black;
+
+
+}
+.button1:hover{
+  background-color:black ;
+  color:  white;
+  border: 1px solid black;
+
+}
